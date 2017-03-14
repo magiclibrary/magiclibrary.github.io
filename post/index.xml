@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on XuChao Blog</title>
+    <link>https://magiclibrary.github.io/post/index.xml</link>
+    <description>Recent content in Posts on XuChao Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://magiclibrary.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Python 免费资源集合</title>
+      <link>https://magiclibrary.github.io/post/Python%20%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90%E9%9B%86%E5%90%88/</link>
+      <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://magiclibrary.github.io/post/Python%20%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90%E9%9B%86%E5%90%88/</guid>
+      <description>&lt;p&gt;Awesome Python ，这又是一个 Awesome XXX 系列的资源整理，由 vinta 发起和维护。内容包括：Web框架、网络爬虫、网络内容提取、模板引擎、数据库、数据可视化、图片处理、文本处理、自然语言处理、机器学习、日志、代码分析等。&lt;/p&gt;
+
+&lt;p&gt;这个系列没有推荐 Python 书籍、经典博文、交互教程，所以另外推荐：《&lt;a href=&#34;http://blog.jobbole.com/29281/&#34;&gt;25本免费的Python电子书&lt;/a&gt;》、《&lt;a href=&#34;http://blog.jobbole.com/71064/&#34;&gt;学习Python编程的11个（教程）资源&lt;/a&gt;》、《&lt;a href=&#34;http://hao.jobbole.com/pythonmonk/&#34;&gt;PythonMonk：Python交互式教程&lt;/a&gt;》、《&lt;a href=&#34;http://blog.jobbole.com/58226/&#34;&gt;Python程序员必知必会的开发者工具&lt;/a&gt;》。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#awesome-python&#34;&gt;Awesome Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#environment-management&#34;&gt;环境管理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#package-management&#34;&gt;开发包和依赖&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#distribution&#34;&gt;分发&lt;/a&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#build-tools&#34;&gt;构建工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#files&#34;&gt;文件操作&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#date-and-time&#34;&gt;日期和时间&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#text-processing&#34;&gt;文本处理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#natural-language-processing&#34;&gt;自然语言处理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#documentation&#34;&gt;文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#configuration&#34;&gt;配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#command-line-tools&#34;&gt;命令行工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#imagery&#34;&gt;图像处理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#audio&#34;&gt;音频&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#video&#34;&gt;视频&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#geolocation&#34;&gt;地理位置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#http&#34;&gt;HTTP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#database&#34;&gt;数据库&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#database-drivers&#34;&gt;数据库驱动&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#orm&#34;&gt;ORM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#web-frameworks&#34;&gt;Web框架&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#cms&#34;&gt;CMS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#restful-api&#34;&gt;RESTful API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#authentication-and-oauth&#34;&gt;身份认证&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#template-engine&#34;&gt;模板引擎&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#queue&#34;&gt;事件和任务队列&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#search&#34;&gt;搜索&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#news-feed&#34;&gt;新闻源&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#asset-management&#34;&gt;站点资源管理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#caching&#34;&gt;Caching&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#email&#34;&gt;邮件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#internationalization&#34;&gt;Internationalization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#url-manipulation&#34;&gt;URL 处理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#html-manipulation&#34;&gt;HTML 处理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#web-crawling&#34;&gt;网络爬虫&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#web-content-extracting&#34;&gt;网络内容提取&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#downloader&#34;&gt;下载器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#forms&#34;&gt;表单&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#data-validation&#34;&gt;数据确认&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#anti-spam&#34;&gt;A反垃圾&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#tagging&#34;&gt;Tagging&lt;/a&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#admin-panels&#34;&gt;Admin Panels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#processes-and-threads&#34;&gt;进程和线程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#networking&#34;&gt;网络编程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#websocket&#34;&gt;WebSocket&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#wsgi-servers&#34;&gt;WSGI 服务器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#cryptography&#34;&gt;加密&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#gui&#34;&gt;GUI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#game-development&#34;&gt;游戏开发&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#logging&#34;&gt;日志&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#testing&#34;&gt;测试&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#code-analysis-and-linter&#34;&gt;代码分析&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#debugging-tools&#34;&gt;调试工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#science-and-data-analysis&#34;&gt;科学计算和数据分析&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#data-visualization&#34;&gt;数据可视化&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#machine-learning&#34;&gt;机器学习&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#functional-programming&#34;&gt;函数式编程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#mapreduce&#34;&gt;MapReduce&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#third-party-apis&#34;&gt;第三方 APIs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#devops-tools&#34;&gt;DevOps 工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#foreign-function-interface&#34;&gt;外部函数接口&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#high-performance&#34;&gt;高性能&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#algorithms-and-design-patterns&#34;&gt;算法和设计模式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#workflow-execution&#34;&gt;Workflow Execution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#hardware&#34;&gt;硬件&lt;/a&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#miscellaneous&#34;&gt;其他&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#editor-plugins&#34;&gt;编辑器插件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#resources&#34;&gt;资源&lt;/a&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#websites&#34;&gt;网站&lt;/a&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#weekly&#34;&gt;周刊&lt;/a&gt;&lt;a href=&#34;https://github.com/vinta/awesome-python#twitter&#34;&gt;Twitter帐号&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://magiclibrary.github.io/post/hello-world/</link>
+      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://magiclibrary.github.io/post/hello-world/</guid>
+      <description>&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;quick-start&#34;&gt;Quick Start&lt;/h2&gt;
+
+&lt;h3 id=&#34;create-a-new-post&#34;&gt;Create a new post&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo new &amp;quot;My New Post&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/writing.html&#34;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;run-server&#34;&gt;Run server&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/server.html&#34;&gt;Server&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;generate-static-files&#34;&gt;Generate static files&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo generate
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;Deploy to remote sites&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hexo deploy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
