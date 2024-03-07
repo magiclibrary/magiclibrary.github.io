@@ -1,237 +1,863 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta name="generator" content="Hugo 0.18.1" />
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="viggo" />
+  <title>Hexo - </title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="/favicon.ico">
+  
+<link rel="stylesheet" href="/css/hclonely.css">
+<link rel="stylesheet" href="//fonts.loli.net/css?family=Arimo:400,700,400italic.css">
+<link rel="stylesheet" href="/css/fonts/linecons/css/linecons.min.css">
+<link rel="stylesheet" href="/css/fonts/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/xenon-core.min.css">
+<link rel="stylesheet" href="/css/xenon-components.min.css">
+<link rel="stylesheet" href="/css/xenon-skins.min.css">
+<link rel="stylesheet" href="/css/nav.min.css">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="My thoughts and rambles">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<script src="/js/jquery-1.11.1.min.js"></script>
 
-    
-    <link rel="icon" type="image/png" href="/images/favicon.ico">
+  <script>
+    var userDefinedSearchData = {"custom":true,"thisSearch":"https://cn.bing.com/search?q=","thisSearchIcon":"url(https://cn.bing.com/favicon.ico)","hotStatus":true,"data":[{"name":"bing","img":"url(https://cn.bing.com/favicon.ico)","url":"https://cn.bing.com/search?q="}]};
+    var expandAll = false;
+  </script>
+  
+<script src="/js/header.js"></script>
 
-    
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+        
+<script src="/js/html5shiv.min.js"></script>
 
-    
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+        
+<script src="/js/respond.min.js"></script>
 
-    
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
+    <![endif]-->
+  <!-- / FB Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://example.com/index.html">
+  <meta property="og:title" content="Hexo - ">
+  <meta property="og:description" content="">
+  <meta property="og:site_name" content="Hexo - ">
+  
+  <meta property="og:image" content="/images/webstack_banner_cn.png">
+  
+  <!-- / Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hexo - ">
+  <meta name="twitter:description" content="">
+  
+  <meta name="twitter:image" content="/images/webstack_banner_cn.png">
+  
+  
+  <!-- 直接添加html内容即可 -->
+<!-- 可设置多行 -->
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"/>
-    <link rel="stylesheet" href="/css/ionicons.min.css"/>
-    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.1.3/material.grey-orange.min.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="/css/hmdl-style.css"/>
-
-
-
-    <title>XuChao Blog</title>
 </head>
 
-<body style="background-image: url('/images/bg.png');">
-    <div class="hmdl-body mdl-layout mdl-js-layout has-drawer is-upgraded">        
-        <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll">
-            <div class="mdl-layout__header-row">
-                <div class="mdl-layout-spacer"></div>
-                <nav class="mdl-navigation">
-                <a class="mdl-navigation__link mdl-color-text--accent" href="/">首页</a>
-                <a class="mdl-navigation__link" href="/post/">所有文章</a>
-                <a class="mdl-navigation__link" href="/project/">项目</a>
-                <a class="mdl-navigation__link" href="/about/">关于我</a>
-                </nav>
-            </div>
-        </header>
-        <div class="mdl-layout__drawer">
-            <nav class="mdl-navigation">
-            <a class="mdl-navigation__link mdl-color-text--accent" href="/">首页</a>
-            <a class="mdl-navigation__link" href="/post/">所有文章</a>
-            <a class="mdl-navigation__link" href="/project/">项目</a>
-            <a class="mdl-navigation__link" href="/about/">关于我</a>
-            </nav>
+
+
+
+<body class="page-body">
+<div class="page-container">
+<div class="sidebar-menu toggle-others fixed">
+  <div class="sidebar-menu-inner">
+    <header class="logo-env">
+      <div class="logo">
+        <a href="/index.html" class="logo-expanded">
+          <img src="/images/logo@2x.png" width="100%" alt="" />
+        </a>
+        <a href="/index.html" class="logo-collapsed">
+          <img src="/images/logo-collapsed@2x.png" width="40" alt="" />
+        </a>
+      </div>
+      <div class="mobile-menu-toggle visible-xs">
+        <a href="#" data-toggle="user-info-menu">
+          <i class="linecons-cog"></i>
+        </a>
+        <a href="#" data-toggle="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+    </header>
+    <ul id="main-menu" class="main-menu">
+      
+      <li class="">
+        
+          <a href="#建筑资讯" class="smooth">
+            
+            <i class="far fa-star"></i>
+            <span class="title">建筑资讯</span>
+          </a>
+          
+      </li>
+      
+      <li class="">
+        
+          <a href="#图片网站" class="smooth">
+            
+            <i class="far fa-star"></i>
+            <span class="title">图片网站</span>
+          </a>
+          
+      </li>
+      
+      <li class="">
+        
+          <a href="#资源网站" class="smooth">
+            
+            <i class="far fa-star"></i>
+            <span class="title">资源网站</span>
+          </a>
+          
+      </li>
+      
+      <li class="">
+        
+        <a class="fas fa-angle-down" style="cursor: pointer;">
+          
+            <i class="fas fa-tools"></i>
+            <span class="title">其他工具</span>
+          </a>
+          
+          <ul style="display: none;">
+            
+            <li>
+              <a href="#设计工具" class="smooth">
+                <i class="fas fa-tools"></i>
+                <span class="title">设计工具</span>
+              </a>
+            </li>
+            
+          </ul>
+          
+      </li>
+      
+      
+      <li class="submit-tag">
+        <a href="/about/">
+          <i class="far fa-heart"></i>
+          <span class="tooltip-blue">关于本站</span>
+        </a>
+      </li>
+      
+      
+      <li>
+        <a href="javascript:void(0)">
+          <i class="fas fa-eye"></i>
+          <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span></span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:void(0)">
+          <i class="fas fa-users"></i>
+          <span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv"></span></span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<div class="main-content">
+  <nav class="navbar user-info-navbar" role="navigation">
+    <ul class="user-info-menu left-links list-inline list-unstyled">
+      <li class="hidden-sm hidden-xs hover-line">
+        <a href="#" data-toggle="sidebar">
+          <i class="fas fa-bars"></i>
+        </a>
+      </li>
+      <li class="dropdown hover-line language-switcher">
+        
+        <a href="/index.html" class="dropdown-toggle" data-toggle="dropdown">
+          <img src="/images/flags/flag-cn.png" alt="flag-cn" /> Chinese
+        </a>
+        <ul class="dropdown-menu languages">
+          
+            
+              <li class="active">
+                <a href="/index.html">
+                  <img src="/images/flags/flag-cn.png" alt="flag-cn" alt="flag-cn" /> Chinese
+                </a>
+              </li>
+            
+          
+        </ul>
+      </li>
+      <li class="switch-mode hover-line" onclick="switchNightMode()">
+        <a href="#">
+          <svg t="1593061068148" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1681" width="16" height="16">
+            <path d="M582.4 326.4c-140.8 0-256 115.2-256 256s115.2 256 256 256 256-115.2 256-256-115.2-256-256-256z m0 448c-70.4 0-131.2-36.8-164.8-92.8 12.8 3.2 27.2 4.8 40 4.8 121.6 0 219.2-99.2 219.2-219.2 0-17.6-1.6-35.2-6.4-52.8 60.8 32 102.4 96 102.4 169.6 1.6 104-84.8 190.4-190.4 190.4zM582.4 262.4c17.6 0 32-14.4 32-32v-128c0-17.6-14.4-32-32-32s-32 14.4-32 32v128c0 17.6 14.4 32 32 32zM262.4 582.4c0-17.6-14.4-32-32-32h-128c-17.6 0-32 14.4-32 32s14.4 32 32 32h128c17.6 0 32-14.4 32-32zM310.4 356.8c6.4 6.4 14.4 9.6 22.4 9.6 8 0 16-3.2 22.4-9.6 12.8-12.8 12.8-32 0-44.8l-91.2-91.2c-12.8-12.8-32-12.8-44.8 0-12.8 12.8-12.8 32 0 44.8l91.2 91.2zM944 220.8c-12.8-12.8-32-12.8-44.8 0l-91.2 91.2c-12.8 12.8-12.8 32 0 44.8 6.4 6.4 14.4 9.6 22.4 9.6 8 0 16-3.2 22.4-9.6l91.2-91.2c12.8-12.8 12.8-33.6 0-44.8zM310.4 808l-91.2 91.2c-12.8 12.8-12.8 32 0 44.8 6.4 6.4 14.4 9.6 22.4 9.6 8 0 16-3.2 22.4-9.6l91.2-91.2c12.8-12.8 12.8-32 0-44.8-11.2-11.2-32-11.2-44.8 0z" p-id="1682" fill="#707070"></path>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    
+    </nav>
+    
+    <section class="sousuo">
+      <div class="search">
+        <div class="search-box">
+          <span class="search-icon" style="background: url(/images/search_icon.png) 0px 0px; opacity: 1;"></span>
+          <input type="text" id="txt" class="search-input" autocomplete="off" placeholder="请输入关键字，按回车 / Enter 搜索">
+          <button class="search-btn" id="search-btn"><i class="fa fa-search"></i></button>
         </div>
-
-        <main class="mdl-layout__content">
-
-            <div class="hmdl-frontpage mdl-grid">                
-                <div class="hmdl-profile-card mdl-card profile-card mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
-                    <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600" style="background-image: url('/images/viosey_logo-blue.jpg');">
-                    </div>                    
-                    <div id="fab_ctn" class="mdl-button--fab_flinger-container">
-                        
-                        <button id="fab_btn" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent">
-                            <i class="icon ion-android-add mdl-color-text--white" role="presentation"></i>
-                            <span class="visuallyhidden">add</span>
-                        </button>
-                        
-                        <div class="mdl-button--fab_flinger-options">
-                            <a href="/about">
-                                <button id="about" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-color--primary" title="About Me">
-                                    <i class="icon ion-person mdl-color-text--white" role="presentation"></i>
-                                </button>
-                            </a>
-                            
-                            <a href="/project">
-                                <button id="projects" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-color--primary" title="My Projects">
-                                    <i class="icon ion-code mdl-color-text--white" role="presentation"></i>
-                                </button>
-                            </a>
-                            
-                            <a href="mailto:olossss@qq.com?subject=Hi">
-                                <button id="email" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-color--primary" title="Email Me">
-                                    <i class="icon ion-email mdl-color-text--white" role="presentation"></i>
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="hmdl-page-meta mdl-card__supporting-text meta--fill mdl-color-text--grey-600 ">
-                        <div>
-                            <strong>Xu Chao</strong>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="mdl-card mdl-cell mdl-cell--8-col">
-                    <div class="mdl-card__media mdl-color-text--grey-50" style="background-image: url('/images/3a21629abd9cdf52f2516e6ddffadfab5f24573556db2-zuxmUo_fw658.png'); background-color:#263238;">
-                        <h3><a href="/post/%E5%BB%BA%E7%AD%91%E5%88%86%E6%9E%90%E5%9B%BE%E5%85%AD%E7%A7%8D%E5%A5%97%E8%B7%AF/" >建筑设计基础之6种建筑分析图“套路”详解</a></h3>
-                    </div>
-                    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                        <p>分析图最重要的是逻辑，这个需要一点一点去领悟和学习。至于表达方面本篇文章帮你解决。分析图的表达风格多样但好像没有听说具体用哪一个软件，这也是让大家苦恼的一个方面。这篇文章简单跟大家分享一下分析图的表达和软件之间的配合。</p>
-
-<p></p>
-                    </div>
-                    <div class="hmdl-page-meta mdl-card__supporting-text mdl-color-text--grey-600">
-                        <div class="minilogo" style="background-image: url('/images/viosey_logo-blue.jpg');"></div>
-                        <div>
-                            <strong><a href="http://goblinlaboratory.win/Blog/">Xu Chao</a></strong>
-                            <span>Apr 9, 2017</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="mdl-card mdl-cell mdl-cell--12-col">
-                    <div class="mdl-card__media mdl-color-text--grey-50" style="background-image: url('/images/random/material-15.png'); background-color:#263238;">
-                        <h3><a href="/post/%E5%A5%87%E5%B9%BB%E4%BD%9C%E5%93%81%E5%8F%8ARPG%E6%B8%B8%E6%88%8F%E4%B9%8B%E7%B2%BE%E7%81%B5%E6%97%8F%E8%AE%BE%E5%AE%9A/" >奇幻作品及RPG游戏之精灵族设定</a></h3>
-                    </div>
-                    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                        <h3 id="elf-精灵">ELF（精灵）</h3>
-
-<p>在众多奇幻作品及RPG游戏中出现的Elf和人类很象，有着尖尖的耳朵，是美丽长寿的种族。一般以森林为家（暗精灵是住在地下），喜爱自然，情感细腻，声音旋律优美，是天生的诗人和舞蹈家；在昏暗的条件下视野也是人的两倍，因此掌握了高超的箭术；学识广博，对魔法有很高的天赋。精灵一般能活到700岁以上，这也是为什么他们总是不慌不忙的原因。精灵总是乐于在一些人类不能理解的事情上花费大量的时间：聆听潺潺的流水，林中鸟鸣风吹……对精灵来说生命的意义在于慢慢发现美好的地方，并充分享受它。他们也很难和生命短促的种族建立深厚的友谊，眼看朋友的故去，而自己还有无尽的生命要度过，实在是件痛苦的事。<br />
-</p>
-                    </div>
-                    <div class="hmdl-page-meta mdl-card__supporting-text mdl-color-text--grey-600">
-                        <div class="minilogo" style="background-image: url('/images/viosey_logo-blue.jpg');"></div>
-                        <div>
-                            <strong><a href="http://goblinlaboratory.win/Blog/">Xu Chao</a></strong>
-                            <span>Apr 8, 2017</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="mdl-card mdl-cell mdl-cell--12-col">
-                    <div class="mdl-card__media mdl-color-text--grey-50" style="background-image: url('/images/bc68c0ce6aec04f74ef699c2a543cd784c0f2a204141d-ZxqSS6_fw658.jpg'); background-color:#263238;">
-                        <h3><a href="/post/%E5%BB%BA%E7%AD%91%E6%80%BB%E5%B9%B3%E9%9D%A2%E5%9B%BE%E5%85%AB%E8%A6%81%E7%B4%A0/" >建筑设计基础之总图八要素</a></h3>
-                    </div>
-                    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                        <p>总平面图主要表示整个建筑基地的总体布局，具体表达新建房屋的位置、朝向以及周围环境（原有建筑、交通道路、绿化、地形等）基本情况的图样。总图中用一条粗虚线来表示用地红线，所有新建拟建房屋不得超出此红线并满足消防、日照等规范。总图中的建筑密度、容积率、绿地率、建筑占地、停车位、道路布置等应满足设计规范和当地规划局提供的设计要点。</p>
-
-<p></p>
-                    </div>
-                    <div class="hmdl-page-meta mdl-card__supporting-text mdl-color-text--grey-600">
-                        <div class="minilogo" style="background-image: url('/images/viosey_logo-blue.jpg');"></div>
-                        <div>
-                            <strong><a href="http://goblinlaboratory.win/Blog/">Xu Chao</a></strong>
-                            <span>Apr 8, 2017</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="mdl-card mdl-cell mdl-cell--12-col">
-                    <div class="mdl-card__media mdl-color-text--grey-50" style="background-image: url('/images/bg/2.jpg'); background-color:#263238;">
-                        <h3><a href="/post/Python%20%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90%E9%9B%86%E5%90%88/" >Python 免费资源集合</a></h3>
-                    </div>
-                    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                        <p>Awesome Python ，这又是一个 Awesome XXX 系列的资源整理，由 vinta 发起和维护。内容包括：Web框架、网络爬虫、网络内容提取、模板引擎、数据库、数据可视化、图片处理、文本处理、自然语言处理、机器学习、日志、代码分析等。</p>
-
-<p>这个系列没有推荐 Python 书籍、经典博文、交互教程，所以另外推荐：《<a href="http://blog.jobbole.com/29281/">25本免费的Python电子书</a>》、《<a href="http://blog.jobbole.com/71064/">学习Python编程的11个（教程）资源</a>》、《<a href="http://hao.jobbole.com/pythonmonk/">PythonMonk：Python交互式教程</a>》、《<a href="http://blog.jobbole.com/58226/">Python程序员必知必会的开发者工具</a>》。</p>
-
-<p></p>
-                    </div>
-                    <div class="hmdl-page-meta mdl-card__supporting-text mdl-color-text--grey-600">
-                        <div class="minilogo" style="background-image: url('/images/viosey_logo-blue.png');"></div>
-                        <div>
-                            <strong><a href="http://goblinlaboratory.win/Blog/">Xu Chao</a></strong>
-                            <span>Mar 14, 2017</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="mdl-card mdl-cell mdl-cell--12-col">
-                    <div class="mdl-card__media mdl-color-text--grey-50" style="background-image: url('/images/bg/1.jpg'); background-color:#263238;">
-                        <h3><a href="/post/hello-world/" >Hello World</a></h3>
-                    </div>
-                    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                        <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-
-<p></p>
-                    </div>
-                    <div class="hmdl-page-meta mdl-card__supporting-text mdl-color-text--grey-600">
-                        <div class="minilogo" style="background-image: url('/images/viosey_logo-blue.jpg');"></div>
-                        <div>
-                            <strong><a href="http://goblinlaboratory.win/Blog/">Xu Chao</a></strong>
-                            <span>Aug 26, 2015</span>
-                        </div>
-                    </div>
-                </div>
-
-                    
-                <nav class="mdl-cell mdl-cell--12-col">
-                    <div class="section-spacer"></div>
-                    <a href="/post/" title="show more">
-                        More
-                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                            <i class="material-icons icon ion-android-arrow-forward" role="presentation"></i>
-                        </button>
-                    </a>
-                </nav>
-
-            </div>        
-        </main>
-        <footer class="mdl-mini-footer">
-            <div class="mdl-mini-footer--left-section">                
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="mailto:olossss@qq.com?subject=Hi">
-                    <i class="material-icons_lg icon ion-email"></i>
-                    <span class="visuallyhidden">Email</span>
-                </a>
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="http://goblinlaboratory.win/Blog/">
-                    <i class="material-icons_lg icon ion-social-github"></i>
-                    <span class="visuallyhidden">Github</span>
-                </a>
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="http://goblinlaboratory.win/Blog/">
-                    <i class="material-icons_lg icon ion-social-linkedin "></i>                        
-                    <span class="visuallyhidden">LinkedIn</span>
-                </a>
-
-            </div>
-            <div class="mdl-mini-footer--right-section">
-                <span>© 2015 Xu Chao</span>
-            </div>
-        </footer>
-        <div class="mdl-layout__obfuscator"></div>
+        <!-- 搜索热词 -->
+        <div class="box search-hot-text" id="box" style="display: none;">
+          <ul></ul>
+        </div>
+        <!-- 搜索引擎 -->
+        <div class="search-engine" style="display: none;">
+          <div class="search-engine-head">
+            <strong class="search-engine-tit">选择您的默认搜索引擎：</strong>
+            <div class="search-engine-tool">搜索热词： <span id="hot-btn" style="background-image: url(/images/off_on.png);"></span></div>
+          </div>
+          <ul class="search-engine-list search-engine-list_zmki_ul">
+          </ul>
+        </div>
+    </section>
+    <script>search('/images/search_icon.png')</script>
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="建筑资讯"></i>建筑资讯</h4>
+<div class="row">
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.archdaily.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.archdaily.cn/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/Archdaily.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>ArchDaily | 传播世界建筑</strong>
+          </a>
+          <p class="overflowClip_2">为每一位建筑设计参与者提供工具，以为更多的人建造更好的生活空间！</p>
+        </div>
+      </div>
     </div>
-    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
-    <script src="/js/cardmedia.js"></script>
-    <script src="/js/fabbutton.js"></script>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.gooood.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.gooood.cn/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/gude.webp" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>谷德设计网 - gooood</strong>
+          </a>
+          <p class="overflowClip_2">服务全球创意，推进中国制造.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.archcollege.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.archcollege.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/nav_logo.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>建筑学院</strong>
+          </a>
+          <p class="overflowClip_2">建筑学院一个为建筑师而打造的高品质平台.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.iarch.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.iarch.cn/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/iarch-logo.gif.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>专筑网</strong>
+          </a>
+          <p class="overflowClip_2">专于设计 · 筑就未来</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.archcy.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.archcy.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/cyw.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>畅言网</strong>
+          </a>
+          <p class="overflowClip_2">建筑界的畅言网是一家建筑专业综合类网站，旨在为建筑人士提供一个方便、快捷、高效的近距离交流互动平台。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://x.abbs.com.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://x.abbs.com.cn/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/ABBS.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>ABBS</strong>
+          </a>
+          <p class="overflowClip_2">ABBS建筑论坛创建于1998年,为全球最大建筑专业论坛。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.zshid.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.zshid.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/zhushi.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>筑视</strong>
+          </a>
+          <p class="overflowClip_2">为广大热爱建筑及建筑系学生提供一个良好的学习平台，海量资源下载和百万数据库便是大家坚强的后盾。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.archiposition.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.archiposition.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/ys.svg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>有方</strong>
+          </a>
+          <p class="overflowClip_2">有方是一间致力于研究和传播建筑、空间文化的独立机构。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.awhouse.art/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.awhouse.art/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>awhouse</strong>
+          </a>
+          <p class="overflowClip_2">建筑学书目。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.archrace.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.archrace.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/archrace.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>archrace</strong>
+          </a>
+          <p class="overflowClip_2">设计竞赛信息。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.gujianchina.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.gujianchina.cn/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/164008521.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>古建家园</strong>
+          </a>
+          <p class="overflowClip_2">古建家园-古建中国共同富裕文化传承宅兹中国美好生活方式践行者！</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://architizer.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://architizer.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/logos/u=3249113339,1887228529&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG.webp" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Architizer</strong>
+          </a>
+          <p class="overflowClip_2">知末全球案例</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.dezeen.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.dezeen.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/logos/u=3249113339,1887228529&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG.webp" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Dezeen</strong>
+          </a>
+          <p class="overflowClip_2">世界最知名影响力最大的建筑室内设计网站.墙</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.bdcnetwork.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.bdcnetwork.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/logos/bbb.svg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Building Design+Construction</strong>
+          </a>
+          <p class="overflowClip_2">《建筑设计与施工》</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://guihuayun.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://guihuayun.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/logos/bbb.svg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>规划云</strong>
+          </a>
+          <p class="overflowClip_2">规划云知识百科</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<br />
+
+    
+    
+    
+    
+    
+    
+    
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="图片网站"></i>图片网站</h4>
+<div class="row">
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://huaban.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://huaban.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>花瓣网</strong>
+          </a>
+          <p class="overflowClip_2">陪你做生活的设计师。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://pinterest.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://pinterest.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Pinterest</strong>
+          </a>
+          <p class="overflowClip_2">http://pinterest.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.bigbigwork.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.bigbigwork.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>大作</strong>
+          </a>
+          <p class="overflowClip_2">找灵感，上大作</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://unsplash.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://unsplash.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Unsplash</strong>
+          </a>
+          <p class="overflowClip_2">提供高质量、免费使用的照片，适用于个人和商业用途。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.pexels.com/zh-cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.pexels.com/zh-cn/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Pexels</strong>
+          </a>
+          <p class="overflowClip_2">免费高分辨率照片和视频素材的平台。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://pixabay.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://pixabay.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Pixabay</strong>
+          </a>
+          <p class="overflowClip_2">提供免费的高质量照片、矢量图和插图。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.shopify.com/stock-photos', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.shopify.com/stock-photos">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Burst by Shopify</strong>
+          </a>
+          <p class="overflowClip_2">由Shopify提供的免费高分辨率照片资源。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.shutterstock.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.shutterstock.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Shutterstock</strong>
+          </a>
+          <p class="overflowClip_2">提供各种各样的照片、插图和视频素材，部分内容需要付费。墙</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.nationalgeographic.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.nationalgeographic.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>National Geographic Photo of the Day</strong>
+          </a>
+          <p class="overflowClip_2">国家地理杂志每日更新的精选照片。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.deviantart.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.deviantart.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>DeviantArt</strong>
+          </a>
+          <p class="overflowClip_2">一个创意作品社区，包括插画、摄影和数字艺术等多种类型的作品。墙</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<br />
+
+    
+    
+    
+    
+    
+    
+    
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="资源网站"></i>资源网站</h4>
+<div class="row">
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.znzmo.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.znzmo.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>知末网</strong>
+          </a>
+          <p class="overflowClip_2">下素材找灵感看案例</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.3d66.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.3d66.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>3d溜溜网</strong>
+          </a>
+          <p class="overflowClip_2">一千万设计师都在用</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://3dwarehouse.sketchup.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://3dwarehouse.sketchup.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>3D WAREHOUSE</strong>
+          </a>
+          <p class="overflowClip_2">su模型库</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://3d.jzsc.net/model/su', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://3d.jzsc.net/model/su">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>典尚su模型</strong>
+          </a>
+          <p class="overflowClip_2">SU模型</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.bimobject.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.bimobject.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>bim对象</strong>
+          </a>
+          <p class="overflowClip_2">BIM objects for everyone.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<br />
+
+    
+    
+    
+    
+    
+    
+    
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="设计工具"></i>设计工具</h4>
+<div class="row">
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.caup.net/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.caup.net/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>国匠城</strong>
+          </a>
+          <p class="overflowClip_2">国匠城 - 城市规划理想</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.ventusky.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.ventusky.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>风雨气温图</strong>
+          </a>
+          <p class="overflowClip_2">风雨气温图</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://cadmapper.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://cadmapper.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/s.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>CAD MAPPER 3D地图</strong>
+          </a>
+          <p class="overflowClip_2">支持多种格式下载的3D地图</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<br />
+
+    
+    
+    
+    
+    
+<script src="/js/footer.js"></script>
 
 
+  <footer class="main-footer sticky footer-type-1">
+  <div class="footer-inner">
+    <!-- Add your copyright text here -->
+    <p>
+      
+      &copy; 2020 - 2024
+      <a href="javascript:void(0);"><strong>John Doe</strong></a> | Design by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> | Power by <a href="https://hexo.io/" target="_blank"><strong>Hexo</strong></a> & <a href="https://github.com/HCLonely/hexo-theme-webstack/" target="_blank"><strong>hexo-theme-webstack</strong></a>
+    </p>
+    
+    <div class="go-up">
+      <a href="#" rel="go-top">
+        <i class="fas fa-angle-up"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+</div>
+</div>
+
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/TweenMax.min.js"></script>
+<script src="/js/resizeable.min.js"></script>
+<script src="/js/joinable.js"></script>
+<script src="/js/xenon-api.min.js"></script>
+<script src="/js/xenon-toggles.min.js"></script>
+<script src="/js/xenon-custom.min.js"></script>
+
+
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+<script src="/js/lozad.min.js"></script>
+
+
+
+  
+  <!-- 直接添加html内容即可 -->
+<!-- 可设置多行 -->
+  
 </body>
-</html>
 
+</html>
